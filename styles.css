@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+  font-family: 'Roboto Mono', sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f5f5f5;
+}
+
+h2 {
+  background-color: rgb(75, 114, 199);
+  padding: 0.3em 0.6em;
+  border-radius: 10px;
+  transition: all 0.55s ease;
+  cursor: default;
+}
+
+h2:hover {
+  box-shadow: 0.4em 0.3em 0.2em rgba(0, 0, 0, 0.336);
+  background-color: rgb(75, 114, 199);
+  color: white;
+  letter-spacing: 0.5px;
+}
+
+h3 {
+  padding: 0.3em 0.5em;
+  border-radius: 10px;
+  transition: all 0.35s ease;
+  cursor: default;
+}
+
+.container {
+  text-align: center;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+.input-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.input-group span {
+  margin: 0 5px;
+  font-size: 25px;
+  font-weight: 340;
+  cursor: default;
+}
+
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+  width: 80px;
+  max-width: 100%;
+  box-sizing: border-box;
+  outline-style: none;
+  transition: all 0.4s ease;
+}
+
+input[type=number]:hover {
+  background-color: #E2E2E2;
+  box-shadow: 0.4em 0.3em 0.2em rgba(0, 0, 0, 0.336);
+  width: 85px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #4285f4;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #357ae8;
+  box-shadow: 0.4em 0.3em 0.3em rgba(0, 0, 0, 0.329);
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+
+p {
+  font-weight: 500;
+  transition: all 0.4s ease;
+  color: black;
+}
